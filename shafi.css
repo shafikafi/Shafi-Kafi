@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{margin:0px;padding:0px;}
+
+body{
+	font-size:16px;
+	font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;font-weight:500px
+}
+section{padding:80px 0px;}
+
+}
+#topBar{
+	background:#f50 
+	
+}
+
+.container {
+    width: 970px;
+    padding-right: 15px;
+	padding-left: 120px;
+    margin: auto;
+}
+.social {
+    float: left;
+    width: 130px;
+	
+}
+
+.phone {
+    width: 210px;
+    float: left;
+}
+
+.email {
+    width: 605px;
+    float: left;
+}
+.topWrapper {
+    overflow: hidden;
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+	color:#2b2b2b;
+}
+.social a:first-child{
+	border-left:1px solid #ddd;
+}
+.email i {
+    color: #f50;
+    padding: 12px 0px;
+    padding-left: 16px;
+    padding-right: 3px;
+}
+.phone i {
+    color: #f50;
+    padding: 13px 0px;
+}
+.social i:hover {
+    color: #ff5200;
+	transition:.2s;
+}
+i.fas.fa-envelope {
+    border-left: 1px solid #ddd;
+}
+
+.phone {
+    border-left: 1px solid #ddd;
+    padding: 0px 10px;
+}
+img {
+    width: 60px;
+    /* height: 35px; */
+}
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%;
+}.menu {
+    width: 825px;
+    float: left;
+}
+
+.logo {
+    width: 130px;
+    float: left;
+}
+ul.menuitem {
+    list-style: none;
+	float:right;
+}
+
+li {
+    float: left;
+}
+ul.menuitem li a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    padding: 25px 15px;
+    color: black;
+}
+.primaryMenu {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #8b8585;
+}
+#homeslider{
+	background:url(brigatetempleteimg/shafi.gif);
+	background-repeat:no-repeat;
+	background-position: 100%;
+	padding:0px;
+	height: 418px;
+	background-size:cover;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+
+.slidercontent {
+    color: white;
+    width: 550px;
+}
+p {
+    font-weight: 600px;
+    line-height: 30px;
+	margin-bottom:35px
+}
+button#slidework {
+    background: #ff5200;
+	cursor:pointer;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-bottom: 65px;
+    
+	}
+button:hover{
+	background:#333 !important;
+	color:white;
+}
+.sboxwrapper {
+    width: 232px;
+	float:left;
+}
+h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.sboxdesc {
+    margin-bottom: 25px;
+}
+
+a {
+    text-align: center;
+}
+
+a {}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #101010;
+}
+
+.sboxlink {
+    text-align: center;
+    /* margin-bottom: 72px; */
+    padding-bottom: 15px;
+}
+
+.sboxdesc {
+    text-align: center;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    color: #000;
+    margin-bottom: 33px;
+}
+
+.singlebox {
+    background: white;
+   box-shadow:0px 2px 6px;
+    margin-right: 10px;
+}
+
+
+.sboxtitle {
+    letter-spacing: -1px;
+    color: #333;
+}
+
+.sboxdesc {}
+
+h2 {
+    margin-bottom: 21px;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+header#topBar {
+    background: #f5f5f5;
+}
+#services{
+	background:#f5f6f6;
+	height: 285px;
+}
+.sboxicon {text-align: center;font-size: 50px;}
+
+i.fa.fa-ambulance {
+    color: #f50;
+}
+.singlebox:hover {
+    background: #f50;
+    color: white;
+    transition: 0.4s;
+}
+.singlebox:hover h2, i {
+	color:white;
+}
+.singlebox:hover i,p{
+	color:white;
+}
+.singlebox:hover a{
+	color:white;
+}
+.teamimage img {
+    width: 450px;
+    height: 340px;
+}
+.titledesc p{
+	color:#ddd;
+}
+i.fab.fa-facebook {
+    color: black;
+}
+
+i.fab.fa-twitter {
+    color: black;
+}
+
+i.fab.fa-linkedin {
+    color: black;
+}
+
+i.fab.fa-facebook:hover {
+    color: #f50;
+}
+
+i.fab.fa-twitter:hover {
+    color: #f50;
+}
+i.fab.fa-linkedin:hover {
+    color: #f50;
+}
+i.fas.fa-search {
+    color: black;
+}
+.titledesc p{
+	color:balck;
+}
+.titledesc p{
+	color: black;
+	color:balck;
+}
+.contentsbtn{
+	color:white;
+	background:#f50;
+}
+button{
+	display:block;
+	padding: 10px 20px;
+	background: #f50;
+	outline: none;
+	color: white;
+	font-weight: 209px;
+	font-weight: -3px;
+	margin-top: 15px;
+	font-weight: 154px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 34px;
+	cursor:pointer;
+	font-weight:bold;
+	transition:.3s;
+}
+button:hover{
+	background: #333;
+	color:white;
+}
+.teamcontents{
+	overflow:hidden;
+}
+.teamimage {
+    width: 450px;
+    float: left;
+    margin-right: 20px;
+}
+.teamfacilities {
+    text-decoration: none;
+    overflow: hidden;
+}
+.teamleft{
+	float:left;
+	overflow:hidden;
+	text-decoration:none;
+	list-style:none;
+	margin-right:254px;
+}
+.teamright{
+	margin-left:10px;
+}
+.teamleft{
+	list-style:none;
+	line-height: 35px;
+}
+
+.teamright{
+	list-style:none;
+	line-height: 35px;
+}
+.button button{
+	font-weight:4px !important;
+}
+.singlebox a{
+	color:#f50;
+}
+.titledesc p {
+    color: #666;
+    color: balck;
+    text-align: justify;
+    line-height: 23px;
+}
+#whyuse{
+	background:linear-gradient(#00000073,#00000073),url(brigatetempleteimg/shafi2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:cecter center;
+	height: 110px;
+}
+.singleicon {
+    
+    float: left;
+    margin-right: 80px;
+}
+.sicon i{
+	font-size:35px;
+	margin-bottom:10px
+}
+.sicon h2{
+	font-size:24px;
+}
+.singleicon h2 {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 900px;
+    font-family: arial black;
+    font-weight: 300px;
+
+}
+.singleicon h4 {
+    color: #ffffff;
+}
+.postwrapper .postinfo p{
+	color: #666;
+	margin: auto;
+	width: 212px;
+	font-size: 15px;
+}
+.sectitle p{
+	color: #666;
+	font-size: 14px;
+	width: 461px;
+	margin: auto;
+	line-height: 23px;
+	margin-bottom: 40px;
+}
+.sectitle h2{
+	margin-bottom: 30px;
+	font-size: 38px;
+}
+.postimage img {
+    height: 127px;
+    width: 169px;
+}
+#blogpost{
+	background:#f5f6f6;
+	height: 532px;
+}
+.singlepost {
+    float: left;
+    width: 242px;
+    padding-right: 0px;
+    /* padding-left: 170px; */
+}
+.footer {
+    font-size: 35px;
+}
